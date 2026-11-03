@@ -4,6 +4,11 @@
   "description": "Magpie gateway middleware to restore citations and snippets for DeepSeek Harness (DSH) web search via Anthropic Messages API",
   "type": "module",
   "main": "./magpie-websearch-citations.middleware.js",
+  "author": "MDX-Tom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MDX-Tom/magpie-dsh-websearch"
+  },
   "files": [
     "magpie-websearch-citations.middleware.js",
     "icon.svg",

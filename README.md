@@ -45,7 +45,7 @@
 ### 方式二：使用 Magpie CLI 安装
 
 ```bash
-magpie plugin add github:midaxia/magpie-dsh-websearch
+magpie plugin add github:MDX-Tom/magpie-dsh-websearch
 ```
 
 ### 方式三：本地开发 / 源码目录直接加载
@@ -53,7 +53,7 @@ magpie plugin add github:midaxia/magpie-dsh-websearch
 在终端克隆本仓库后执行：
 
 ```bash
-git clone https://github.com/midaxia/magpie-dsh-websearch.git
+git clone https://github.com/MDX-Tom/magpie-dsh-websearch.git
 magpie plugin add ./magpie-dsh-websearch
 ```
 

@@ -45,13 +45,13 @@
 ### Method 2: Magpie CLI
 
 ```bash
-magpie plugin add github:midaxia/magpie-dsh-websearch
+magpie plugin add github:MDX-Tom/magpie-dsh-websearch
 ```
 
 ### Method 3: Local Development Folder
 
 ```bash
-git clone https://github.com/midaxia/magpie-dsh-websearch.git
+git clone https://github.com/MDX-Tom/magpie-dsh-websearch.git
 magpie plugin add ./magpie-dsh-websearch
 ```
 
