@@ -1,0 +1,37 @@
+{
+  "name": "magpie-dsh-websearch",
+  "version": "1.0.0",
+  "description": "Magpie gateway middleware to restore citations and snippets for DeepSeek Harness (DSH) web search via Anthropic Messages API",
+  "type": "module",
+  "main": "./magpie-websearch-citations.middleware.js",
+  "files": [
+    "magpie-websearch-citations.middleware.js",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "deepseek-harness",
+    "dsh",
+    "web-search",
+    "citations",
+    "gateway-middleware"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test magpie-websearch-citations.test.mjs"
+  },
+  "magpie": {
+    "name": "DSH WebSearch Citations",
+    "middleware": "./magpie-websearch-citations.middleware.js",
+    "icon": "./icon.svg",
+    "options": {
+      "enabled": true,
+      "maxCitedText": 4000,
+      "maxDigest": 120,
+      "maxCitations": 12
+    }
+  }
+}
