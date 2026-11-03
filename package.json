@@ -7,7 +7,7 @@
   "author": "MDX-Tom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MDX-Tom/magpie-dsh-websearch"
+    "url": "git+https://github.com/MDX-Tom/magpie-dsh-websearch.git"
   },
   "files": [
     "magpie-websearch-citations.middleware.js",
