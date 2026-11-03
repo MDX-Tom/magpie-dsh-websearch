@@ -13,6 +13,7 @@
     "magpie-websearch-citations.middleware.js",
     "icon.svg",
     "README.md",
+    "README_EN.md",
     "LICENSE"
   ],
   "keywords": [
